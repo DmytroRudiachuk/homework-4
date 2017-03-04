@@ -1,0 +1,91 @@
+.wrapper div {
+	padding: 0 50px;
+}
+
+.project-name {
+	padding-left: 24px;
+	color: grey;
+}
+
+.navigation {
+	border-radius: 15px;
+	display: block;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+	background-color: #e6e6e6;
+	text-decoration: none; 
+	padding: 20px 70px;
+	cursor: pointer;
+	border-right: 1px #d2d2d2;
+	
+}
+
+.navigation li:hover {
+	box-shadow: inset 0px 0px 1px 1px #c7c6c6;
+	 background-color: #c9c9c9;
+
+}
+
+
+.navigation li a {
+	text-decoration: none; 
+	color: grey; 
+
+}
+
+.navigation li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.navigation li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-width: 0;
+}
+
+
+
+.big {
+	text-align: center;
+	padding: 50px;
+}
+
+.big button {
+	padding: 10px;
+	font-size: 25px;
+	color: #fff;
+	background-color: green;
+	border: none;
+	border-radius: 10px;
+}
+
+.row {
+	display: block;
+}
+
+.row .block {
+	display: inline-block;
+	padding: 20px 0;
+	width: calc(32% - 20px * 2); 
+	margin: 0 20px;
+	vertical-align: top;
+}
+
+.row .block a {
+	padding: 10px 20px;
+	font-size: 10px;
+	color: white;
+	background-color: #3970cf;;
+	border: none;
+	border-radius: 5px;
+	text-decoration: none;
+	font-family: Arial;
+}
+
+.footer {
+	margin-top: 70px;
+}
