@@ -1,2 +1,2 @@
 # homework-4
-homework-4 dane
+homework-4 done
